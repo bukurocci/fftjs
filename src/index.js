@@ -2,9 +2,13 @@
 import Complex from './complex';
 import dft from './dft';
 import idft from './idft';
+import dct from './dct';
+import idct from './idct';
 
-export default {
+export {
   Complex,
   dft,
   idft,
+  dct,
+  idct
 }

@@ -1,9 +1,8 @@
-import dct from '../src/dct';
-import idct from '../src/idct';
+import { dct, idct } from '../src/';
 
 const PI = Math.PI;
 
-describe('dct', () => {
+describe('idct', () => {
 
   before(() => {
 

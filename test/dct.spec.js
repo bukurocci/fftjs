@@ -1,4 +1,4 @@
-import dct from '../src/dct';
+import { dct } from '../src/';
 
 const PI = Math.PI;
 

@@ -1,5 +1,4 @@
-import dft from '../src/dft';
-import Complex from '../src/Complex';
+import { Complex, dft } from '../src/';
 
 describe('dft', () => {
 

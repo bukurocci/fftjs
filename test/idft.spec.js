@@ -1,7 +1,6 @@
-import dft from '../src/dft';
-import idft from '../src/idft';
+import { dft, idft } from '../src/';
 
-describe('dft', () => {
+describe('idft', () => {
 
   before(() => {
 
