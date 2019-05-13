@@ -1,0 +1,30 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "browser": true,
+    "jquery": true,
+    "es6": true,
+    "mocha": true
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "expect": true,
+    "should": true,
+    "assert": true
+  },
+  "root": true,
+  "rules": {
+    "strict": ["warn"],
+    "no-var": "warn",
+    "no-unused-vars": ["warn", { "args": "none", "caughtErrors": "none", "ignoreRestSiblings": true }],
+    "no-console": "warn",
+    "no-tabs": "warn",
+    "no-multiple-empty-lines": "warn",
+    "no-trailing-spaces": "warn",
+    "quotes": ["warn", "single"],
+    "object-curly-spacing": ["warn", "always"],
+    "array-bracket-spacing": ["warn", "never"],
+    "space-before-function-paren": ["warn", "never"]
+  }
+}
