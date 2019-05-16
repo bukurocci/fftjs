@@ -14,11 +14,10 @@ const dft = (samples) => {
     for (let l = 0; l < n; l++) {
 
       const exp = -PI2 * k * l / n;
-      const re = samples[l] * Math.cos(exp);
-      const im = samples[l] * Math.sin(exp);
+      const c = samples[l].multiply(new Complex(Math.cos(exp), Math.sin(exp)));
 
-      complex.real += re;
-      complex.imaginary += im;
+      complex.real += c.real;
+      complex.imaginary += c.imaginary;
     }
 
     coeffs.push(complex);
