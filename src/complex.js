@@ -22,7 +22,7 @@ class Complex {
 
   multiply(complex) {
     const re = this.real * complex.real - this.imaginary * complex.imaginary;
-    const im = this.real * complex.imaginary - complex.real * this.imaginary;
+    const im = this.real * complex.imaginary + complex.real * this.imaginary;
 
     return new Complex(re, im);
   }
