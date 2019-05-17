@@ -1,5 +1,5 @@
-# fftjs
-Trying to understand FFT and write it in JavaScript
+# ft.js
+This is JavaScript implementation of the Fourier Transform supporting DFT, DCT, FFT and their inverse transform
 
 ## TODO
 - [x] Complex Number
